@@ -63,3 +63,8 @@ try:
     print(CubicGenerator.squares(10, 1))
 except ValueError:
     print("Value Error by (raised by CubicGenerator)")
+
+# Task 10
+from square_generator.cubic_generator import CubicGenerator
+
+print(CubicGenerator.squares(1, 10))
