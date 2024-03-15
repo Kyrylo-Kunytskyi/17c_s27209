@@ -40,4 +40,8 @@ try:
 except ValueError:
     print("Value Error")
 
+# Task 6
+import square_generator
+
+print(square_generator.SquareGenerator.squares(1, 10))
 
