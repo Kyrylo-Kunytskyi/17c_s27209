@@ -16,3 +16,15 @@ class SquareGenerator:
         return [i ** 2 for i in range(start, end + 1)]
 
 print(SquareGenerator.squares(1, 10))
+
+# Task 4
+import math
+
+l1 = squares(1, 10)
+l2 = []
+
+for num in l1:
+    l2.append(math.sqrt(num))
+
+print(l2)
+
