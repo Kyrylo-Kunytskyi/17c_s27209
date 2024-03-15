@@ -38,7 +38,7 @@ class SquareGenerator:
 try:
     print(SquareGenerator.squares(10, 1))
 except ValueError:
-    print("Value Error")
+    print("Value Error (raised by SquareGenerator)")
 
 # Task 6
 """
@@ -55,3 +55,11 @@ print(SquareGenerator.squares(1, 10))
 from square_generator.cubic_generator import CubicGenerator
 
 print(CubicGenerator.cubics(1, 10))
+
+# Task 9
+from square_generator.cubic_generator import CubicGenerator
+
+try:
+    print(CubicGenerator.squares(10, 1))
+except ValueError:
+    print("Value Error by (raised by CubicGenerator)")
