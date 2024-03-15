@@ -28,3 +28,16 @@ for num in l1:
 
 print(l2)
 
+# Task 5
+class SquareGenerator:
+    def squares(start, end):
+        if end < start:
+            raise ValueError("End of the range cannot be less than the start.")
+        return [i ** 2 for i in range(start, end + 1)]
+
+try:
+    print(SquareGenerator.squares(10, 1))
+except ValueError:
+    print("Value Error")
+
+
