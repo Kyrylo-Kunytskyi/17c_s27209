@@ -41,7 +41,12 @@ except ValueError:
     print("Value Error")
 
 # Task 6
+"""
 import square_generator
 
 print(square_generator.SquareGenerator.squares(1, 10))
+"""
+# Task 7
+from square_generator.square_generator import SquareGenerator
 
+print(SquareGenerator.squares(1, 10))
