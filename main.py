@@ -50,3 +50,8 @@ print(square_generator.SquareGenerator.squares(1, 10))
 from square_generator.square_generator import SquareGenerator
 
 print(SquareGenerator.squares(1, 10))
+
+# Task 8
+from square_generator.cubic_generator import CubicGenerator
+
+print(CubicGenerator.cubics(1, 10))
